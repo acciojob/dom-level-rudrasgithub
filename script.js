@@ -6,4 +6,4 @@ while (ele && ele.parentNode && ele.parenNode !== document) {
 	ele = ele.parentNode;
 	depth++;
 }
-alert(depth)
+alert(`The level of the element is: ${depth}`)
